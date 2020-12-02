@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get the most used colors</title>
+</head>
+<body>
+    
+    <div id="container">
+
+        <div id="input_div">
+            <label for="img_input" class="custom_input_button">Upload image...</label>
+            <label id="img_file_name"></label>
+            <input id="img_input" type="file"/>
+
+            <button id="btn_get_palette">Get the most used colors</button>
+        </div>
+
+        
+        <div id="radiobtn_div">
+
+            <label id="title_label"> Select how many colors: </label>
+
+            <input type="radio" id="three_colors" name="how_many" value="3" checked>
+  		    <label for="original">Three colors</label>
+
+			<input type="radio" id="four_colors" name="how_many" value="6"> 
+  		    <label for="grayscale">Six colors</label>
+
+			<input type="radio" id="five_colors" name="how_many" value="9">
+            <label for="inverted">Nine colors</label>
+              
+        </div>
+
+
+        <div id="color_blocks">
+            <!-- add here the palettes with JS -->
+        </div>
+
+        <div id="canvas_div">
+            <canvas id="img_canvas"></canvas>
+        </div>
+
+
+
+    </div>
+
+
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./main.js"></script>
+</body>
+</html>

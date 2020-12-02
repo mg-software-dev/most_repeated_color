@@ -1,0 +1,142 @@
+
+
+body
+{
+    margin: 0px;
+    width: 100%;
+    overflow: auto;
+    background-color: aliceblue;
+}
+
+
+
+button
+{
+    box-shadow:inset 0px 0px 15px 3px #23395e;
+    background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+    background-color:#2e466e;
+    border-radius:17px;
+    border:1px solid #1f2f47;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:16px;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #263666;
+    font-weight: bold;
+}
+
+
+button:hover
+{
+    background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+    background-color:#415989;
+}
+
+
+button:active
+{
+    position:relative;
+    top:1px;
+}
+
+
+.custom_input_button
+{
+    box-shadow:inset 0px 0px 15px 3px #23395e;
+    background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+    background-color:#2e466e;
+    border-radius:17px;
+    border:1px solid #1f2f47;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:16px;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #263666;
+}
+
+
+
+#img_input
+{
+    visibility: hidden;
+    /* this is for the gap
+     when the file is uploaded */
+    width: 3%;
+}
+
+
+
+#container
+{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+
+
+#radiobtn_div
+{
+    /* border: 3px solid green; */
+    margin: 10px;
+}
+
+
+
+#canvas_div
+{
+    /* border: 3px solid green; */
+    margin: 10px;
+}
+
+
+
+#img_canvas
+{
+    width: 40%;
+}
+
+
+
+#color_blocks
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+
+
+.palette_block
+{
+    width: 15%;
+    height: 7em;
+    border: 1px solid black;
+    margin: 3px;
+    border-radius: 72px;
+}
+
+
+.palette_block > p
+{
+    position: relative;
+    top: 25%;
+    left: 0%;
+}
