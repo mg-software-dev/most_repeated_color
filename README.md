@@ -5,7 +5,7 @@
 
 ### the complexity of this task is in the image size :
 ### i got a "decent performance", i did tests with  3840 x 2160 images
-### (thats more than 8,300,000 pixels) and did a lot of operations
+### (thats more than 8,200,000 pixels) and did a lot of operations
 ### and it took 10 secons aprox to finish the task
 ### The idea is simple :
 ### - get the pixel array
