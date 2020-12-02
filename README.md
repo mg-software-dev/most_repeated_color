@@ -4,8 +4,8 @@
 ### and returns the most used colors
 
 ### the complexity of this task is in the image size :
-### i get a decent performance, i mean, i did tests with a 3840 x 2160 image
-### (thats more than 8,500,000 pixels) and did a lot of operations
+### i got a "decent performance", i did tests with  3840 x 2160 images
+### (thats more than 8,300,000 pixels) and did a lot of operations
 ### and it took 10 secons aprox to finish the task
 ### The idea is simple :
 ### - get the pixel array
